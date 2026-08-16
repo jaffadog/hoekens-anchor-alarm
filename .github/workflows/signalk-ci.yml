@@ -21,3 +21,4 @@ jobs:
           node-version: '20'
       - run: npm ci
       - run: npm test
+# retest trigger: plugin-ci.yml schema-defaults activation + fail-on-warning verification
